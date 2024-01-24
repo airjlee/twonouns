@@ -1,0 +1,19 @@
+/* EmailInput.css */
+
+.email-input-container {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 5rem;
+  }
+  
+  .email-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+
+  }
+  

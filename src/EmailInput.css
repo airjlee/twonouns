@@ -1,19 +1,23 @@
 /* EmailInput.css */
 
 .email-input-container {
-    text-align: center;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: -3rem;
-  }
-  
-  .email-input {
-    padding: 0.5rem;
-    font-size: 1rem;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -3rem;
+}
 
-  }
-  
+.email-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  border: 1px solid black; /* Set the default border color */
+}
+
+.email-input:focus {
+  outline: none; /* Remove default focus outline */
+  border: 1px solid white; /* Set the desired color for the focused state */
+}

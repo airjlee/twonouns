@@ -7,7 +7,7 @@ const BackgroundVideo = () => {
   return (
     <div className="background-video-container">
       <ReactPlayer
-        url='https://vimeo.com/906269757'
+        url='https://vimeo.com/906269757?quality=1080p'
         playing
         loop
         muted

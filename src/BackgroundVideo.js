@@ -3,10 +3,13 @@ import ReactPlayer from 'react-player';
 import './BackgroundVideo.css';
 
 const BackgroundVideo = () => {
+  const videoUrl = 'https://www.youtube.com/watch?v=4j_qzYZGQig';
+  const startTimeInSeconds = 48; // Set the desired start time in seconds
+
   return (
     <div className="background-video-container">
       <ReactPlayer
-        url="/path/to/your/video.mp4" // Update with the actual path to your video file
+        url={`${videoUrl}?start=${startTimeInSeconds}`}
         playing
         loop
         muted

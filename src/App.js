@@ -7,6 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="app">
+      <BackgroundVideo />
       <Title />
       <EmailInput />
     </div>

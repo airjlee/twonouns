@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 import './BackgroundVideo.css';
 
 const BackgroundVideo = () => {
-  const videoUrl = 'https://www.youtube.com/watch?v=4j_qzYZGQig';
+  const videoUrl = 'https://www.youtube.com/watch?v=TK1Ij_-mank';
   const startTimeInSeconds = 48; // Set the desired start time in seconds
 
   return (

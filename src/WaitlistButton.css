@@ -27,6 +27,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   position: absolute;
   text-align: center;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -65,7 +66,7 @@ body {
   background-color: black;
   color: #fffff0;
   padding: 10px; /* Adjusted padding for better appearance */
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: 'Roboto Condensed', sans-serif;
   cursor: pointer;
   border: none;
@@ -89,5 +90,6 @@ body {
  /* Add margin to separate it from the button */
  margin-bottom: 1rem;
  margin-top: 4rem;
+ font-size: 0.8rem;
   
 }

@@ -21,15 +21,18 @@ const WaitlistButton = () => {
       <button className="waitlist-text" onClick={handleJoinWaitlist}>
         JOIN WAITLIST
       </button>
-      <Modal className="modal"
+      <Modal
+        className="modal"
         isOpen={isModalOpen}
         onRequestClose={handleCloseModal}
         contentLabel="Join Waitlist Modal"
       >
         <h2>TWONOUNS</h2>
         <p>옷이 날개다</p>
-        <EmailInput className="modal"/>
-        <button onClick={handleCloseModal}>STAY UPDATED</button>
+        <div className="modal-buttons">
+          <EmailInput className="modal-buttons" />
+          <button onClick={handleCloseModal}>STAY UPDATED</button>
+        </div>
       </Modal>
     </div>
   );

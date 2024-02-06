@@ -1,5 +1,6 @@
 import React from 'react';
 import './EmailInput.css';
+import './WaitlistButton.css'
 
 const EmailInput = () => {
   return (

@@ -11,6 +11,8 @@
   }
   
   .background-video {
+    width: 100%; /* Ensure video covers entire width */
+    height: 100%; /* Ensure video covers entire height */
     object-fit: cover;
   }
   

@@ -31,7 +31,7 @@ const WaitlistButton = () => {
             {/* Email input box */}
             <input
               type="email"
-              placeholder="ENTER YOUR EMAIL"
+              placeholder="EMAIL ADDRESS"
               className="email-input"
             />
     <button onClick={handleCloseModal}>STAY UPDATED</button>

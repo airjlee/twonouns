@@ -1,9 +1,7 @@
-// WaitlistButton.js
-
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './WaitlistButton.css';
-import EmailInput from './EmailInput';
+
 
 const WaitlistButton = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -20,7 +18,7 @@ const WaitlistButton = () => {
     <div className="waitlist-button">
       <button className="waitlist-text" onClick={handleJoinWaitlist}>
         JOIN WAITLIST
-      </button>
+      </button >
       <Modal
         className="modal"
         isOpen={isModalOpen}
@@ -29,10 +27,15 @@ const WaitlistButton = () => {
       >
         <h2>TWONOUNS</h2>
         <p>옷이 날개다</p>
-        <div className="modal-buttons">
-          <EmailInput className="modal-buttons" />
-          <button onClick={handleCloseModal}>STAY UPDATED</button>
-        </div>
+        <div className="modal-content">
+            {/* Email input box */}
+            <input
+              type="email"
+              placeholder="ENTER YOUR EMAIL"
+              className="email-input"
+            />
+    <button onClick={handleCloseModal}>STAY UPDATED</button>
+  </div>
       </Modal>
     </div>
   );

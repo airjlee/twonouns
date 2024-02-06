@@ -28,7 +28,7 @@ const WaitlistButton = () => {
       >
         <h2>TWONOUNS</h2>
         <p>옷이 날개다</p>
-        <EmailInput />
+        <EmailInput className="modal"/>
         <button onClick={handleCloseModal}>STAY UPDATED</button>
       </Modal>
     </div>

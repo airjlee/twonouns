@@ -6,18 +6,21 @@
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 7rem;
+  
+  margin-top: 0rem;
 }
 
 .email-input {
   padding: 0.5rem;
   font-size: 1rem;
   font-family: 'Roboto Condensed', sans-serif;
+  width: 163%;
   text-align: center;
+  margin-left: -37%; /* Center the input within the container */
   border: 1px solid black; /* Set the default border color */
 }
 
 .email-input:focus {
   outline: none; /* Remove default focus outline */
-  border: 1px solid white; /* Set the desired color for the focused state */
+  border: 1px solid black; /* Set the desired color for the focused state */
 }

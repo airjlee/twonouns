@@ -31,3 +31,46 @@
     font-weight: 700;
     margin-top: 0;
   }
+
+    /* Media queries for smaller screens */
+@media only screen and (max-width: 414px) {
+  .title {
+      font-size: 2.5rem; /* Adjusted font size for iPhone SE (2nd generation) and iPhone 13 mini */
+  }
+
+  .subtitle {
+      font-size: 1.2rem; /* Adjusted font size for smaller screens */
+  }
+
+  .korean {
+      font-size: 0.8rem; /* Adjusted font size for smaller screens */
+  }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  .title {
+      font-size: 3rem; /* Adjusted font size for iPhone 12, 12 Pro, 11, and XR */
+  }
+
+  .subtitle {
+      font-size: 1.3rem; /* Adjusted font size for smaller screens */
+  }
+
+  .korean {
+      font-size: 0.9rem; /* Adjusted font size for smaller screens */
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .title {
+      font-size: 3.5rem; /* Default font size for larger screens */
+  }
+
+  .subtitle {
+      font-size: 1.5rem; /* Default font size for larger screens */
+  }
+
+  .korean {
+      font-size: 1rem; /* Default font size for larger screens */
+  }
+}

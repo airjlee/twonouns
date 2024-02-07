@@ -5,12 +5,14 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     z-index: -1;
   }
   
   .background-video {
+    width: 100%; /* Ensure video covers entire width */
+    height: 100%; /* Ensure video covers entire height */
     object-fit: cover;
   }
   

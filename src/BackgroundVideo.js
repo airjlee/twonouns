@@ -3,8 +3,23 @@ import ReactPlayer from 'react-player';
 import './BackgroundVideo.css';
 
 const BackgroundVideo = () => {
+
+  const isMobile = window.innerWidth <= 768; // Adjust the threshold as needed
+
+  if (isMobile) {
+    return (
+      <div >
+        <img
+          src="bloodlilyimg.png"
+          alt="Background"
+          className="background-image"
+        />
+      </div>
+    );
+  }
   
   return (
+  
     <div className="background-video-container">
       <ReactPlayer
         url='https://vimeo.com/907160841'

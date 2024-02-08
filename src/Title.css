@@ -57,7 +57,7 @@
   }
 
   .korean {
-      margin-top: 0rem;
+      margin-top: -2rem;
       font-size: 0.9rem; /* Adjusted font size for smaller screens */
   }
 }

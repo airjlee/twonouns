@@ -162,11 +162,11 @@ body {
 
   .modal h2 {
     margin-top: 5rem; /* Adjusted margin-top for smaller screens */
-    font-size: 4rem; /* Adjusted font size for smaller screens */
+    font-size: 3rem; /* Adjusted font size for smaller screens */
   }
 
   .modal p {
-    font-size: 2rem; /* Adjusted font size for smaller screens */
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
   }
 
   .thanks {

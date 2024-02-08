@@ -181,7 +181,7 @@ body {
   .modal button {
     /* Adjusted font size for smaller screens */
      /* Adjusted padding for smaller screens */
-    width: 83%; /* Allow button width to adjust based on content */
+    width: 85%; /* Allow button width to adjust based on content */
   }
 
   .email-input {

@@ -15,4 +15,12 @@
     height: 100%; /* Ensure video covers entire height */
     object-fit: cover;
   }
+
+
+  .background-image{
+    width: 100%; /* Ensure video covers entire width */
+    height: 100%; /* Ensure video covers entire height */
+    object-fit: cover;
+    align-items: center;
+  }
   

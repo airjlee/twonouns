@@ -10,7 +10,7 @@ const BackgroundVideo = () => {
     return (
       <div >
         <img
-          src="bloodlilyimg.png"
+          src="./bloodlilyimg.png"
           alt="Background"
           className="background-image"
         />

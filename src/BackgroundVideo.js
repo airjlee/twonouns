@@ -10,7 +10,7 @@ const BackgroundVideo = () => {
     return (
       <div >
         <img
-          src={require('bloodlilyimg.png')}
+          src={require('./bloodlilyimg.png')}
           alt="Background"
           className="background-image"
         />

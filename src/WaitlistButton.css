@@ -135,3 +135,57 @@ body {
 .email-container {
   position: relative;
 }
+
+@media only screen and (max-width: 414px) {
+  
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .modal {
+    width: 90%; /* Adjust the width for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+    max-height: 80%; /* Limit the maximum height of the modal */
+  }
+
+  .modal h2 {
+    margin-top: 5rem; /* Adjusted margin-top for smaller screens */
+    font-size: 4rem; /* Adjusted font size for smaller screens */
+  }
+
+  .modal p {
+    font-size: 2rem; /* Adjusted font size for smaller screens */
+  }
+
+  .thanks {
+    margin-top: 2rem; /* Adjusted margin-top for smaller screens */
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+  }
+
+  .modal-buttons {
+    margin-top: 1rem; /* Adjusted margin-top for smaller screens */
+  }
+
+  .modal button {
+    font-size: 1rem; /* Adjusted font size for smaller screens */
+    padding: 8px; /* Adjusted padding for smaller screens */
+    width: auto; /* Allow button width to adjust based on content */
+  }
+
+  .email-input {
+    margin-top: 2rem; /* Adjusted margin-top for smaller screens */
+    width: 80%; /* Adjusted width for smaller screens */
+  }
+
+  .invalid-email-msg {
+    margin-top: 1rem; /* Adjusted margin-top for smaller screens */
+    font-size: 0.8rem; /* Adjusted font size for smaller screens */
+  }
+}

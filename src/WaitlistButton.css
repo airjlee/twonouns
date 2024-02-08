@@ -114,11 +114,16 @@ body {
   width: 29.95%; /* Set width to 100% to make it flexible */
   text-align: center;
   border: 1px solid black;
+  border-radius: 0;
 }
 
 .email-input:focus {
   outline: none;
   border: 1px solid black;
+}
+
+.update-button{
+  color: white;
 }
 
 .waitlist-text:focus {
@@ -152,7 +157,7 @@ body {
   .modal {
     width: 90%; /* Adjust the width for smaller screens */
     height: auto; /* Allow height to adjust based on content */
-    max-height: 80%; /* Limit the maximum height of the modal */
+    max-height: 70%; /* Limit the maximum height of the modal */
   }
 
   .modal h2 {
@@ -174,18 +179,19 @@ body {
   }
 
   .modal button {
-    font-size: 1rem; /* Adjusted font size for smaller screens */
+    /* Adjusted font size for smaller screens */
     padding: 8px; /* Adjusted padding for smaller screens */
-    width: auto; /* Allow button width to adjust based on content */
+    width: 80%; /* Allow button width to adjust based on content */
   }
 
   .email-input {
     margin-top: 2rem; /* Adjusted margin-top for smaller screens */
     width: 80%; /* Adjusted width for smaller screens */
+
   }
 
   .invalid-email-msg {
     margin-top: 1rem; /* Adjusted margin-top for smaller screens */
-    font-size: 0.8rem; /* Adjusted font size for smaller screens */
+    font-size: 0.5rem; /* Adjusted font size for smaller screens */
   }
 }

@@ -21,7 +21,8 @@ const BackgroundVideo = () => {
               byline: 0,
               portrait: 0,
               title: 0,
-              controls: 0
+              controls: 0,
+              keyboard: false
             }
           }
         }}

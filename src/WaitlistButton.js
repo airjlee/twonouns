@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './WaitlistButton.css';
 
-
 const WaitlistButton = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isJoined, setIsJoined] = useState(false); // State to track if user has joined
+  const [email, setEmail] = useState('');
+  const [isValidEmail, setIsValidEmail] = useState(true); // State to track if email is valid
 
   const handleJoinWaitlist = () => {
     setIsModalOpen(true);
@@ -20,7 +21,29 @@ const WaitlistButton = () => {
   };
 
   const handleStayUpdated = () => {
-    setIsJoined(true); // Update state to indicate user has joined
+    // Validate email
+    setIsValidEmail(validateEmail(email));
+    if (validateEmail(email)) {
+      setIsJoined(true); // Update state to indicate user has joined
+    }
+  };
+
+  const validateEmail = (email) => {
+    const re = /\S+@\S+\.\S+/;
+    return re.test(email);
+  };
+
+  const handleEmailChange = (e) => {
+    const inputEmail = e.target.value;
+    setEmail(inputEmail);
+    // Clear the error message when user starts typing
+    setIsValidEmail(true);
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleStayUpdated();
+    }
   };
 
   return (
@@ -46,9 +69,13 @@ const WaitlistButton = () => {
               <input
                 type="email"
                 placeholder="EMAIL ADDRESS"
-                className="email-input"
+                className={`email-input ${isValidEmail ? '' : 'invalid'}`}
+                value={email}
+                onChange={handleEmailChange}
+                onKeyPress={handleKeyPress}
               />
               <button onClick={handleStayUpdated}>STAY UPDATED</button>
+              {!isValidEmail && <text className="invalid-email-msg">Please enter a valid email address.</text>}
             </>
           )}
         </div>

@@ -14,6 +14,17 @@ const BackgroundVideo = () => {
         width="100%"
         height="100%"
         className="background-video"
+        config={{
+          vimeo: {
+            playerOptions: {
+              autopause: 0,
+              byline: 0,
+              portrait: 0,
+              title: 0,
+              controls: 0
+            }
+          }
+        }}
       />
     </div>
   );

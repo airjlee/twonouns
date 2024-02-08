@@ -171,7 +171,7 @@ body {
 
   .thanks {
     margin-top: 2rem; /* Adjusted margin-top for smaller screens */
-    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    font-size: 0.5rem; /* Adjusted font size for smaller screens */
   }
 
   .modal-buttons {
@@ -180,14 +180,13 @@ body {
 
   .modal button {
     /* Adjusted font size for smaller screens */
-    padding: 8px; /* Adjusted padding for smaller screens */
+     /* Adjusted padding for smaller screens */
     width: 80%; /* Allow button width to adjust based on content */
   }
 
   .email-input {
     margin-top: 2rem; /* Adjusted margin-top for smaller screens */
     width: 80%; /* Adjusted width for smaller screens */
-
   }
 
   .invalid-email-msg {

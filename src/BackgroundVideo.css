@@ -32,3 +32,13 @@
     object-fit: cover; /* This ensures the image covers the entire container */
   }
   
+
+  @media only screen and (max-width: 768px) {
+    .background-image-container {
+      /* Add parallax effect styles */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }

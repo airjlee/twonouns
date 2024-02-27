@@ -4,18 +4,20 @@
     left: 0;
     width: 100%;
     background-color: #fff;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #fff;
     text-align: center;
   }
   
   .email-container {
     margin-bottom: 10px;
+  
   }
   
   input[type='email'] {
     font-family: 'Roboto Condensed', sans-serif;
-    margin-top: 5rem;
+    margin-top: 0rem;
     margin-bottom: 5rem;
     width: 300px;
     padding: 8px;
@@ -29,14 +31,17 @@
     font-size: 12px;
     text-align: left;
     margin-bottom: -5px;
+    padding-left: 20px;
     color: black;
   }
   
   .footer-subtitle {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    margin: 5px 0 0;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
   }
   
 /*

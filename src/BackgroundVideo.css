@@ -14,11 +14,37 @@ body {
 	
 }
 
+.youtube-container-mobile {
+	overflow: hidden;
+	width: 100%;
+	/* Keep it the right aspect-ratio */
+	aspect-ratio: 9/19.5;
+	/* No clicking/hover effects */
+	pointer-events: none;
+	
+	
+}
+
+.youtube-container-mobile iframe {
+	/* Extend it beyond the viewport... */
+  width: 600%;
+  height: 120%;
+  /* ...and bring it back again */
+  margin-left: -100%;
+  margin-top: -20%;
+  
+	
+}
+
 .youtube-container::-webkit-scrollbar {
   display: none;
 }
 
-iframe {
+.youtube-container-mobile::-webkit-scrollbar {
+  display: none;
+}
+
+.youtube-container iframe {
   /* Extend it beyond the viewport... */
   width: 300%;
   height: 120%;

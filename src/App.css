@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .App-logo {
@@ -41,7 +43,15 @@
 
 body {
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
   background-color: black;
 }
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
 

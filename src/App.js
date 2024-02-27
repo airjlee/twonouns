@@ -3,13 +3,14 @@ import Title from './Title';
 import WaitlistButton from './WaitlistButton';
 import BackgroundVideo from './BackgroundVideo';
 import './App.css';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <BackgroundVideo />
       <Title />
-    
+      <Footer />
     </div>
   );
 }

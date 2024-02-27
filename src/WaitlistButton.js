@@ -52,6 +52,14 @@ const WaitlistButton = () => {
         JOIN WAITLIST
       </button >
       <Modal
+        style={{
+          overlay : {
+            backgroundColor: 'rgba(255, 255, 255, 0.75)',
+          }
+
+        }
+         
+        }
         className="modal"
         isOpen={isModalOpen}
         onRequestClose={handleCloseModal}

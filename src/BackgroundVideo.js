@@ -22,29 +22,9 @@ const BackgroundVideo = () => {
   
   return (
   
-    <div className="background-video-container">
-      <ReactPlayer
-        url='https://vimeo.com/907160841'
-        playing
-        loop
-        muted
-        width="100%"
-        height="100%"
-        className="background-video"
-        config={{
-          vimeo: {
-            playerOptions: {
-              autopause: 0,
-              byline: 0,
-              portrait: 0,
-              title: 0,
-              controls: 0,
-              keyboard: false
-            }
-          }
-        }}
-      />
-    </div>
+    <><div class="youtube-container">
+      <iframe src="https://www.youtube.com/embed/5WCpGEnv9po?autoplay=1&mute=1&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1&playlist=5WCpGEnv9po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><p><a href="https://www.youtube.com/watch?v=5WCpGEnv9po">Source video</a></p></>
   );
 };
 

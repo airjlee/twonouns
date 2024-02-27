@@ -1,4 +1,26 @@
 /* BackgroundVideo.css */
+body {
+	font-family: sans-serif;
+}
+
+.youtube-container {
+	overflow: hidden;
+	width: 100%;
+	/* Keep it the right aspect-ratio */
+	aspect-ratio: 16/9;
+	/* No clicking/hover effects */
+	pointer-events: none;
+	
+	
+}
+
+iframe {
+  /* Extend it beyond the viewport... */
+  width: 300%;
+  height: 120%;
+  /* ...and bring it back again */
+  margin-left: -100%;
+}
 
 .background-video-container {
     position: fixed;
@@ -31,6 +53,7 @@
     height: 100%;
     object-fit: cover; /* This ensures the image covers the entire container */
   }
+  
   
 
  

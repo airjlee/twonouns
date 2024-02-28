@@ -25,7 +25,7 @@ body {
 	overflow: hidden;
 	width: 100%;
 	/* Keep it the right aspect-ratio */
-	aspect-ratio: 9/19.5;
+	aspect-ratio: 9/23;
 	/* No clicking/hover effects */
 	pointer-events: none;
   

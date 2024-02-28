@@ -75,12 +75,9 @@ const Footer = () => {
         </div>
           )}
       </div>
-
         <div className="footer-header">
           TWONOUNS | 2024 ©
         </div>
- 
-      
     </footer>
   );
 };

@@ -75,11 +75,11 @@ const Footer = () => {
         </div>
           )}
       </div>
-      <div className='bottom'>
+
         <div className="footer-header">
           TWONOUNS | 2024 ©
         </div>
-      </div>
+ 
       
     </footer>
   );

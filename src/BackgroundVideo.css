@@ -7,12 +7,18 @@ body {
 	overflow: hidden;
 	width: 100%;
 	/* Keep it the right aspect-ratio */
-	aspect-ratio: 16/9;
+	aspect-ratio: 16/10;
 	/* No clicking/hover effects */
 	pointer-events: none;
 	
-	
 }
+
+ /* Add a transition effect */
+
+.youtube-container.playing iframe {
+  opacity: 1; /* Show the iframe when playing */
+}
+
 
 .youtube-container-mobile {
 	overflow: hidden;
@@ -44,13 +50,28 @@ body {
   display: none;
 }
 
+
+
 .youtube-container iframe {
-  /* Extend it beyond the viewport... */
+
   width: 300%;
   height: 120%;
-  /* ...and bring it back again */
+  opacity: 1; 
+  transition: opacity 0.5s;
   margin-left: -100%;
 }
+
+
+/*
+.youtube-container iframe {
+
+  width: 300%;
+  height: 120%;
+
+  margin-left: -100%;
+  margin-top: -12%;
+}
+*/
 
 .background-video-container {
     position: fixed;

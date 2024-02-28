@@ -14,6 +14,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 5rem;
     margin-bottom: -0.2rem;
+    margin-top: 30rem;
     font-weight: 700;
   }
   
@@ -30,6 +31,14 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 0rem;
+  }
+
+  .temp {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 0rem;
+    color: white;
   }
 
     /* Media queries for smaller screens */
@@ -78,4 +87,109 @@
   .korean {
       font-size: 1rem; /* Default font size for larger screens */
   }
+}
+
+
+.email-container {
+  margin-top: 30rem;
+  margin-bottom: 0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='email'] {
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 300px;
+  padding: 8px;
+  border-radius: 0px;
+  margin-bottom: -2rem;
+  padding: 0;
+  border: none;
+  color: white;
+  padding: 8px 0;
+  background-color: transparent;
+  border-bottom: 1px solid white; /* Add black underline */
+}
+
+
+
+input[type='email']:focus {
+  outline: none;
+}
+
+input[type='email']::placeholder {
+  color: white;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.footer-header {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: -5px;
+  margin-top: 0rem;
+  padding-left: 20px;
+  color: white;
+}
+
+.footer-subtitle {
+  margin-top: -11rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 2rem;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+.up {
+  font-family: 'Roboto Condensed', sans-serif;
+    font-size: 5rem;
+    margin-bottom: -0.2rem;
+    margin-top: 30rem;
+    font-weight: 700;
+}
+
+.thanks {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: -1rem;
+  margin-bottom: 0rem;
+  font-size: 13px;
+  font-weight: 400;
+  transform: translateY(-7rem);
+  color: white;
+}
+
+.invalid-email-msg{
+  margin-top: 2rem;
+  font-size: 0.8rem;
+ margin-bottom: 0rem;
+  padding: 0;;
+  display: flex;
+  flex-direction: column;
+  
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.black {
+  background: transparent;
+}
+
+.image {
+  width: 20px;
+  left: 50%;
+  
+}
+
+.footer{
+  font-family: 'Roboto Condensed', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    transform: translateY(4rem);
+}
+
+.footer a {
+  color: inherit; /* Inherit text color from parent */
+  text-decoration: none; /* Remove underline */
 }

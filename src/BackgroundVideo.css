@@ -16,8 +16,8 @@ body {
 
  /* Add a transition effect */
 
-.youtube-container.playing iframe {
-  opacity: 1; /* Show the iframe when playing */
+.youtube-container-playing iframe {
+  opacity: 0.4; /* Show the iframe when playing */
 }
 
 
@@ -25,7 +25,7 @@ body {
 	overflow: hidden;
 	width: 100%;
 	/* Keep it the right aspect-ratio */
-	aspect-ratio: 9/23;
+	aspect-ratio: 9/19.5;
 	/* No clicking/hover effects */
 	pointer-events: none;
   
@@ -33,13 +33,17 @@ body {
 	
 }
 
+.loading{
+  opacity: 0;
+}
+
 .youtube-container-mobile iframe {
 	/* Extend it beyond the viewport... */
   width: 600%;
-  height: 120%;
+  height: 200%;
   /* ...and bring it back again */
   margin-left: -250%;
-  margin-top: -20%;
+  margin-top: -100%;
   opacity: 0.5;
 
 	
@@ -56,6 +60,16 @@ body {
 
 
 .youtube-container iframe {
+  align-items: center;
+  width: 300%;
+  height: 180%;
+  opacity: 0.4; 
+  margin-left: -100%;
+  margin-top: -25%;
+  
+}
+
+.loading iframe {
   align-items: center;
   width: 300%;
   height: 180%;

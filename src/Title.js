@@ -10,6 +10,8 @@ const Title = () => {
   const [isJoined, setIsJoined] = useState(false); // State to track if user has joined
   const [email, setEmail] = useState('');
   const [isValidEmail, setIsValidEmail] = useState(true); // State to track if email is valid
+  
+  const isMobile = window.innerWidth <= 768; // Adjust the threshold as needed
 
   const validateEmail = (email) => {
     const re = /\S+@\S+\.\S+/;
@@ -62,7 +64,11 @@ const Title = () => {
 
   return (
     <div className="title-container">
-      <h1 className={`${isValidEmail ? 'title' : 'up'}`}>TWONOUNS</h1>
+      <h1 className={
+
+        `${isMobile ? `${isValidEmail ? 'mobile-title' : 'mobile-up'}` : `${isValidEmail ? 'title' : 'up'}`} `
+        
+        }>TWONOUNS</h1>
       <h2 className="subtitle">CLOTHING BRAND</h2>
       <h3 className="korean">옷이 날개다</h3>
       <div className="email-container">
@@ -70,7 +76,7 @@ const Title = () => {
         <text className="thanks">Thank you for joining the waitlist.</text>
       ) : (
         <div className={`${isVisible ? 'animate__animated animate__fadeIn' : ''}`} ref={emailRef}>
-          <div className='footer-subtitle' >JOIN THE WAITLIST</div>
+          <div className={`${isMobile ? 'footer-subtitle-mobile' : 'footer-subtitle'}`} >JOIN THE WAITLIST</div>
           <input type="email"
                  placeholder="EMAIL ADDRESS"
                  value={email}

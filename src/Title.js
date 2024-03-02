@@ -69,7 +69,7 @@ const Title = () => {
         `${isMobile ? `${isValidEmail ? 'mobile-title' : 'mobile-up'}` : `${isValidEmail ? 'title' : 'up'}`} `
         
         }>TWONOUNS</h1>
-      <h2 className="subtitle">CLOTHING BRAND</h2>
+      <h2 className="subtitle">DESIGN STUDIO</h2>
       <h3 className="korean">옷이 날개다</h3>
       <div className="email-container">
       {isJoined ? (

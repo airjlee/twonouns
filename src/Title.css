@@ -225,6 +225,7 @@ input[type='email']::placeholder {
     font-size: 10px;
     font-weight: 400;
     transform: translateY(4rem);
+    padding-bottom: 20px; /* change back */
 }
 
 .footer a {

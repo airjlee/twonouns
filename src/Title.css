@@ -77,16 +77,16 @@
 @media only screen and (min-width: 415px) and (max-width: 768px) {
   .title {
       font-size: 3rem; /* Adjusted font size for iPhone 12, 12 Pro, 11, and XR */
-      margin-bottom: 0rem;
+      
   }
 
   .subtitle {
       font-size: 1.3rem; /* Adjusted font size for smaller screens */
-       margin-bottom: 0rem;
+  
   }
 
   .korean {
-      margin-top: -2rem;
+  
       font-size: 0.9rem; /* Adjusted font size for smaller screens */
   }
 }

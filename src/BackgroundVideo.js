@@ -21,7 +21,7 @@ const BackgroundVideo = () => {
   if (isMobile) {
     return (
       <><div class="youtube-container-mobile">
-      <iframe src="https://www.youtube.com/embed/CV2P-xsEiYE?autoplay=1&mute=1&loop=1&color=white&controls=0&modestbranding=1&vq=hd1080playsinline=1&rel=0&enablejsapi=1&start=25&playlist=CV2P-xsEiYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/CV2P-xsEiYE?autoplay=1&mute=1&loop=1&color=white&controls=0&modestbranding=1&vq=hd1080&playsinline=1&rel=0&enablejsapi=1&start=25&playlist=CV2P-xsEiYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div></>
     );
   }

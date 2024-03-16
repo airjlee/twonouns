@@ -1,4 +1,37 @@
 /* Title.css */
+@font-face {
+  font-family: 'RC';
+  src: local('RC'), url('./fonts/RobotoCondensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+@font-face {
+  font-family: 'TSB';
+  src: local('TSB'), url('./fonts/Helvetica\ Neue\ LT\ Com\ 77\ Bold\ Condensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HL';
+  src: local('HL'), url('./fonts/Helvetica\ Neue\ LT\ Std\ 47\ Light\ Condensed.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HLB';
+  src: local('HLB'), url('./fonts/Helvetica\ Neue\ LT\ Std\ 57\ Condensed.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 .title-container {
     text-align: center;
@@ -7,51 +40,51 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #fffff0;
   }
   
   .title {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 5rem;
+    font-family: 'TSB', sans-serif;
+    font-size: 9rem;
     margin-bottom: -0.2rem;
     margin-top: 30rem;
     font-weight: 700;
   }
   
   .subtitle {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.875rem;
+    font-family: 'HLB', sans-serif;
+    font-size: 2rem;
     font-weight: 400;
-    margin-top: 0;
+    margin-top: -1.5rem;
     margin-bottom: 0.7rem;
   }
   
   .korean {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'HLB', sans-serif;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 400;
     margin-top: 0rem;
   }
 
   .temp {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'HLB', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 0rem;
-    color: white;
+    color: #fffff0;
   }
 
   .mobile-subtitle {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'HLB', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 0rem;
-    color: white;
+    color: #fffff0;
     position: fixed;
   }
 
   .mobile-korean {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'HLB', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 0rem;
@@ -114,29 +147,29 @@
 }
 
 input[type='email'] {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'HLB', sans-serif;
   width: 300px;
   padding: 8px;
   border-radius: 0px;
   margin-bottom: -2rem;
   padding: 0;
   border: none;
-  color: white;
+  color: #fffff0;
   padding: 8px 0;
   background-color: transparent;
-  border-bottom: 1px solid white; /* Add black underline */
+  border-bottom: 1px solid #fffff0; /* Add black underline */
 }
 
 .mobile-title {
-  font-family: 'Roboto Condensed', sans-serif;
-    font-size: 3rem;
-    margin-bottom: -0.2rem;
+  font-family: 'TSB', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 0.7rem;
     margin-top: 10rem;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .mobile-up {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'HLB', sans-serif;
     font-size: 5rem;
     margin-bottom: -0.2rem;
     margin-top: 7.7rem;
@@ -148,40 +181,40 @@ input[type='email']:focus {
 }
 
 input[type='email']::placeholder {
-  color: white;
+  color: #fffff0;
   font-size: 12px;
   opacity: 0.5;
 }
 
 .footer-header {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'HLB', sans-serif;
   font-size: 12px;
   text-align: left;
   margin-bottom: -5px;
   margin-top: 0rem;
   padding-left: 20px;
-  color: white;
+  color: #fffff0;
 }
 
 .footer-subtitle {
   margin-top: -11rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'HLB', sans-serif;
   margin-bottom: 2rem;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
-  color: white;
+  color: #fffff0;
 }
 .footer-subtitle-mobile {
   margin-top: -15rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'HLB', sans-serif;
   margin-bottom: 2rem;
   font-size: 13px;
   font-weight: 400;
-  color: white;
+  color: #fffff0;
 }
 
 .up {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'HLB', sans-serif;
     font-size: 5rem;
     margin-bottom: -0.2rem;
     margin-top: 30rem;
@@ -189,13 +222,13 @@ input[type='email']::placeholder {
 }
 
 .thanks {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'HLB', sans-serif;
   margin-top: -1rem;
   margin-bottom: 0rem;
   font-size: 13px;
   font-weight: 400;
   transform: translateY(-7rem);
-  color: white;
+  color: #fffff0;
 }
 
 .invalid-email-msg{
@@ -206,8 +239,8 @@ input[type='email']::placeholder {
   display: flex;
   flex-direction: column;
   
-  color: white;
-  font-family: 'Roboto Condensed', sans-serif;
+  color: #fffff0;
+  font-family: 'HLB', sans-serif;
 }
 
 .black {
@@ -221,7 +254,7 @@ input[type='email']::placeholder {
 }
 
 .footer{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'HLB', sans-serif;
     font-size: 10px;
     font-weight: 400;
     transform: translateY(4rem);

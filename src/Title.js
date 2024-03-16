@@ -2,7 +2,7 @@ import React from 'react';
 import './Title.css';
 import { useRef, useEffect, useState } from 'react';
 
-
+import 'animate.css';
 
 const Title = () => {
   const emailRef = useRef(null);
@@ -47,7 +47,7 @@ const Title = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.5 } 
+      { rootMargin: '-500px 0px 0px 0px', } 
     );
 
     if (emailRef.current) {
@@ -63,7 +63,8 @@ const Title = () => {
   }, []);
 
   return (
-    <div className="title-container">
+    <div className='animate__animated animate__fadeIn'>
+        <div className="title-container">
       <h1 className={
 
         `${isMobile ? `${isValidEmail ? 'mobile-title' : 'mobile-up'}` : `${isValidEmail ? 'title' : 'up'}`} `
@@ -75,7 +76,7 @@ const Title = () => {
       {isJoined ? (
         <text className="thanks">Thank you for joining the waitlist.</text>
       ) : (
-        <div className={`${isVisible ? 'animate__animated animate__fadeIn' : ''}`} ref={emailRef}>
+        <div>
           <div className={`${isMobile ? 'footer-subtitle-mobile' : 'footer-subtitle'}`} >JOIN THE WAITLIST</div>
           <input type="email"
                  placeholder="EMAIL ADDRESS"
@@ -89,6 +90,8 @@ const Title = () => {
       </div>
       <div className="footer">© 2024 TWONOUNS | <a href="mailto:jordanlee@twonouns.com">CONTACT</a> | <a href="https://www.instagram.com/twonouns" target="_blank" rel="noopener noreferrer">SOCIAL</a></div>
     </div>
+    </div>
+    
   );
 };
 

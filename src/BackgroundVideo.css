@@ -7,7 +7,7 @@ body {
 	overflow: hidden;
 
 	/* Keep it the right aspect-ratio */
-	aspect-ratio: 16/12;
+	aspect-ratio: 16/13;
 	/* No clicking/hover effects */
 	pointer-events: none;
 

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.40842974.css",
+    "main.css": "/static/css/main.866a038a.css",
     "main.js": "/static/js/main.9319ebb7.js",
     "static/js/787.9455264e.chunk.js": "/static/js/787.9455264e.chunk.js",
     "static/media/Taner Ardali  Antikor Text Regular.ttf": "/static/media/Taner Ardali  Antikor Text Regular.66e77a05cba09eb36919.ttf",
@@ -9,12 +9,12 @@
     "static/media/Helvetica Neue LT Std 57 Condensed.otf": "/static/media/Helvetica Neue LT Std 57 Condensed.753036847e6f777af67d.otf",
     "static/media/Helvetica Neue LT Std 47 Light Condensed.otf": "/static/media/Helvetica Neue LT Std 47 Light Condensed.88ce1fd144e27ccc7bd9.otf",
     "index.html": "/index.html",
-    "main.40842974.css.map": "/static/css/main.40842974.css.map",
+    "main.866a038a.css.map": "/static/css/main.866a038a.css.map",
     "main.9319ebb7.js.map": "/static/js/main.9319ebb7.js.map",
     "787.9455264e.chunk.js.map": "/static/js/787.9455264e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40842974.css",
+    "static/css/main.866a038a.css",
     "static/js/main.9319ebb7.js"
   ]
 }

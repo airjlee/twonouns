@@ -162,18 +162,18 @@ input[type='email'] {
 
 .mobile-title {
   font-family: 'TSB', sans-serif;
-    font-size: 4rem;
+    font-size: 4.75rem;
     margin-bottom: 0.7rem;
     margin-top: 10rem;
     font-weight: 400;
 }
 
 .mobile-up {
-  font-family: 'HLB', sans-serif;
-    font-size: 5rem;
-    margin-bottom: -0.2rem;
-    margin-top: 7.7rem;
-    font-weight: 700;
+  font-family: 'TSB', sans-serif;
+    font-size: 4.75rem;
+    margin-bottom: 0.7rem;
+    margin-top: 10rem;
+    font-weight: 400;
 }
 
 input[type='email']:focus {

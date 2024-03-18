@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './SplashScreen.css';
 
-const SplashScreen = () => {
+const TempSplash = () => {
   const [showFirstText, setShowFirstText] = useState(true);
   const [showSecondText, setShowSecondText] = useState(false);
 
@@ -24,11 +24,11 @@ const SplashScreen = () => {
   return (
     <div className="splash-screen">
       <div className="splash-content">
-        {showFirstText && <text>옷이 날개다</text>}
+        {showFirstText && <text>WEAR YOUR WINGS</text>}
         {showSecondText && <text>WEAR YOUR WINGS</text>}
       </div>
     </div>
   );
 };
 
-export default SplashScreen;
+export default TempSplash;

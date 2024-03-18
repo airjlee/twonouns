@@ -4,9 +4,12 @@ import BackgroundVideo from './BackgroundVideo';
 import './App.css';
 import YoutubePlayer from './YoutubePlayer';
 import SplashScreen from './SplashScreen';
+import "animate.css";
+import TempSplash from './temp_splash';
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
+  
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -16,14 +19,16 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  
+
   return showSplash ? (
-    <SplashScreen />
+      <SplashScreen />
   ) : (
     <div className="App">
+      <div className='animate__animated animate__fadeOut'>
+       <TempSplash />
+    </div>
       <Title />
-      {/* Render other components here */}
-      {/* <BackgroundVideo />
-      <YoutubePlayer /> */}
     </div>
   );
 }

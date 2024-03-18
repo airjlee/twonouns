@@ -57,6 +57,12 @@ body {
   display: none;
 }
 
+.youtube-player{
+  width: 200%;
+  height: 500%;
+  margin-top: -5%;
+  
+}
 
 
 .youtube-container iframe {

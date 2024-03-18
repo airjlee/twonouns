@@ -40,7 +40,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fffff0;
+    color: black;
   }
   
   .title {
@@ -71,7 +71,7 @@
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 0rem;
-    color: #fffff0;
+    color: black;
   }
 
   .mobile-subtitle {
@@ -79,7 +79,7 @@
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 0rem;
-    color: #fffff0;
+    color: black;
     position: fixed;
   }
 
@@ -154,10 +154,10 @@ input[type='email'] {
   margin-bottom: -2rem;
   padding: 0;
   border: none;
-  color: #fffff0;
+  color: black;
   padding: 8px 0;
   background-color: transparent;
-  border-bottom: 1px solid #fffff0; /* Add black underline */
+  border-bottom: 1px solid black; /* Add black underline */
 }
 
 .mobile-title {
@@ -181,7 +181,7 @@ input[type='email']:focus {
 }
 
 input[type='email']::placeholder {
-  color: #fffff0;
+  color: black;
   font-size: 12px;
   opacity: 0.5;
 }
@@ -193,7 +193,7 @@ input[type='email']::placeholder {
   margin-bottom: -5px;
   margin-top: 0rem;
   padding-left: 20px;
-  color: #fffff0;
+  color: black;
 }
 
 .footer-subtitle {
@@ -202,7 +202,7 @@ input[type='email']::placeholder {
   margin-bottom: 2rem;
   font-size: 14px;
   font-weight: 400;
-  color: #fffff0;
+  color: black;
 }
 .footer-subtitle-mobile {
   margin-top: -15rem;
@@ -210,12 +210,12 @@ input[type='email']::placeholder {
   margin-bottom: 2rem;
   font-size: 13px;
   font-weight: 400;
-  color: #fffff0;
+  color: black;
 }
 
 .up {
-  font-family: 'HLB', sans-serif;
-    font-size: 5rem;
+  font-family: 'TSB', sans-serif;
+    font-size: 9rem;
     margin-bottom: -0.2rem;
     margin-top: 30rem;
     font-weight: 700;
@@ -228,7 +228,7 @@ input[type='email']::placeholder {
   font-size: 13px;
   font-weight: 400;
   transform: translateY(-7rem);
-  color: #fffff0;
+  color: black;
 }
 
 .invalid-email-msg{
@@ -239,7 +239,7 @@ input[type='email']::placeholder {
   display: flex;
   flex-direction: column;
   
-  color: #fffff0;
+  color: black;
   font-family: 'HLB', sans-serif;
 }
 

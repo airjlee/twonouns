@@ -9,11 +9,11 @@ const SplashScreen = () => {
     const firstTimer = setTimeout(() => {
       setShowFirstText(false);
       setShowSecondText(true);
-    }, 1500); // Adjust the delay for the first text (2000ms = 2 seconds)
+    }, 1250); // Adjust the delay for the first text (2000ms = 2 seconds)
 
     const secondTimer = setTimeout(() => {
       setShowSecondText(false);
-    }, 3000); // Adjust the delay for the second text (3000ms after the first text = 5 seconds)
+    }, 2500); // Adjust the delay for the second text (3000ms after the first text = 5 seconds)
 
     return () => {
       clearTimeout(firstTimer);

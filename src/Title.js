@@ -72,7 +72,10 @@ const Title = () => {
         }>TWONOUNS</h1>
       <h2 className="subtitle">DESIGN STUDIO</h2>
       <h3 className="korean">옷이 날개다</h3>
+      </div>
       <div className="email-container">
+        
+        <div className='footer-container'>
       {isJoined ? (
         <text className="thanks">Thank you for joining the waitlist.</text>
       ) : (
@@ -87,8 +90,9 @@ const Title = () => {
           {!isValidEmail && <text className="invalid-email-msg">Please enter a valid email address.</text>}
         </div>
       )}
-      </div>
+      
       <div className="footer">© 2024 TWONOUNS | <a href="mailto:jordanlee@twonouns.com">CONTACT</a> | <a href="https://www.instagram.com/twonouns" target="_blank" rel="noopener noreferrer">SOCIAL</a></div>
+      </div>
     </div>
     </div>
     

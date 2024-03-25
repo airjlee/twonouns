@@ -45,7 +45,7 @@ body {
   margin: 0;
   overflow-x: hidden; /* Disable horizontal scrolling */
   overflow-y: auto; /* Enable vertical scrolling */
-  background-color: #f5f5f7;
+  background-color: black;
  
 }
 

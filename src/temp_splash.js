@@ -24,8 +24,8 @@ const TempSplash = () => {
   return (
     <div className="splash-screen">
       <div className="splash-content">
-        {showFirstText && <text>WEAR YOUR WINGS</text>}
-        {showSecondText && <text>WEAR YOUR WINGS</text>}
+        {showFirstText && <text></text>}
+        {showSecondText && <text></text>}
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import YoutubePlayer from './YoutubePlayer';
 import SplashScreen from './SplashScreen';
 import "animate.css";
 import TempSplash from './temp_splash';
+import Header from './Header';
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -28,6 +29,7 @@ function App() {
       <div className='animate__animated animate__fadeOut'>
        <TempSplash />
     </div>
+      <Header />
       <Title />
     </div>
   );

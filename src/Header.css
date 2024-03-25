@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'VCR';
+    src: local('VCR'), url('./fonts/Taner\ Ardali\ \ Antikor\ Text\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .collection {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Items are evenly distributed in the line */
+    align-items: center; /* Align items vertically */
+    padding-top: 20px;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 12px;
+    font-family: 'VCR';
+  }
+  
+  .collection > div {
+    /* Optional: Adjust styles for individual divs */
+  }
+  

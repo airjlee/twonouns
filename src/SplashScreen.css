@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'VCR';
-    src: local('VCR'), url('./fonts/Taner\ Ardali\ \ Antikor\ Text\ Regular.ttf') format('truetype');
+    src: local('VCR'), url('/public/fonts/Taner\ Ardali\ \ Antikor\ Text\ Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'RC';
-    src: local('RC'), url('./fonts/RobotoCondensed-Bold.ttf') format('truetype');
+    src: local('RC'), url('/public/fonts/RobotoCondensed-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -18,21 +18,21 @@
   
   @font-face {
     font-family: 'TSB';
-    src: local('TSB'), url('./fonts/Helvetica\ Neue\ LT\ Com\ 77\ Bold\ Condensed.ttf') format('truetype');
+    src: local('TSB'), url('/public/fonts/Helvetica\ Neue\ LT\ Com\ 77\ Bold\ Condensed.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'HL';
-    src: local('HL'), url('./fonts/Helvetica\ Neue\ LT\ Std\ 47\ Light\ Condensed.otf') format('truetype');
+    src: local('HL'), url('/public/fonts/Helvetica\ Neue\ LT\ Std\ 47\ Light\ Condensed.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'HLB';
-    src: local('HLB'), url('./fonts/Helvetica\ Neue\ LT\ Std\ 57\ Condensed.otf') format('truetype');
+    src: local('HLB'), url('/public/fonts/Helvetica\ Neue\ LT\ Std\ 57\ Condensed.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }

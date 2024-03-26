@@ -1,7 +1,7 @@
 /* Title.css */
 @font-face {
   font-family: 'RC';
-  src: local('RC'), url('./fonts/RobotoCondensed-Bold.ttf') format('truetype');
+  src: local('RC'), url('/public/fonts/RobotoCondensed-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'VCR';
-  src: local('VCR'), url('./fonts/Taner\ Ardali\ \ Antikor\ Text\ Regular.ttf') format('truetype');
+  src: local('VCR'), url('/public/fonts/Taner\ Ardali\ \ Antikor\ Text\ Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -19,21 +19,23 @@
 
 @font-face {
   font-family: 'TSB';
-  src: local('TSB'), url('./fonts/Helvetica\ Neue\ LT\ Com\ 77\ Bold\ Condensed.ttf') format('truetype');
+  src: local('TSB'), url('/public/fonts/Helvetica\ Neue\ LT\ Com\ 77\ Bold\ Condensed.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
+
+
 @font-face {
   font-family: 'HL';
-  src: local('HL'), url('./fonts/Helvetica\ Neue\ LT\ Std\ 47\ Light\ Condensed.otf') format('truetype');
+  src: local('HL'), url('/public/fonts/Helvetica\ Neue\ LT\ Std\ 47\ Light\ Condensed.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HLB';
-  src: local('HLB'), url('./fonts/Helvetica\ Neue\ LT\ Std\ 57\ Condensed.otf') format('truetype');
+  src: local('HLB'), url('/public/fonts/Helvetica\ Neue\ LT\ Std\ 57\ Condensed.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -165,11 +167,18 @@
 
 .email-container {
   margin-top: 30rem;
-  margin-bottom: 0rem;
+  margin-bottom: -5rem;
   display: flex;
   flex-direction: column;
 }
 
+.email-container-mobile {
+  margin-top: 30rem;
+  margin-bottom: -5rem;
+  display: flex;
+  flex-direction: column;
+  
+}
 
 input[type='email'] {
   font-family: 'HLB', sans-serif;
@@ -188,15 +197,15 @@ input[type='email'] {
 
 .mobile-title {
   font-family: 'TSB', sans-serif;
-    font-size: 4.75rem;
+    font-size: 3rem;
     margin-bottom: 0.7rem;
-    margin-top: 10rem;
+    margin-top: -3rem;
     font-weight: 400;
 }
 
 .mobile-up {
   font-family: 'TSB', sans-serif;
-    font-size: 4.75rem;
+    font-size: 3rem;
     margin-bottom: 0.7rem;
     margin-top: 10rem; 
     font-weight: 400;
@@ -232,42 +241,54 @@ input[type='email']::placeholder {
   color: white;
 }
 .footer-subtitle-mobile {
-  margin-top: -15rem;
+  margin-top: 10rem;
   font-family: 'VCR', sans-serif;
   margin-bottom: 2rem;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 400;
   color: white;
 }
 
 .up {
   font-family: 'TSB', sans-serif;
-    font-size: 9rem;
+    font-size: 5rem;
     margin-bottom: -0.2rem;
     margin-top: 30rem;
     font-weight: 700;
 }
 
 .thanks {
-  font-family: 'HLB', sans-serif;
-  margin-top: -1rem;
-  margin-bottom: 0rem;
+  font-family: 'VCR', sans-serif;
   font-size: 10px;
   font-weight: 400;
   transform: translateY(-7rem);
+  margin-bottom: -60rem;
+
   color: white;
 }
 
 .invalid-email-msg{
-  margin-top: 2rem;
-  font-size: 0.8rem;
- margin-bottom: 0rem;
-  padding: 0;;
+  margin-top: -0.64rem;
+  font-size: 8px;
+ margin-bottom:0rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  
+  transform: translateY(4rem);
   color: white;
-  font-family: 'HLB', sans-serif;
+  font-family: 'VCR', sans-serif;
+}
+
+.invalid-email-msg-mobile{
+  margin-top: -0.77rem;
+  font-size: 8px;
+ margin-bottom:0rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(4rem);
+  color: white;
+  font-family: 'VCR', sans-serif;
 }
 
 .white {
@@ -284,7 +305,7 @@ input[type='email']::placeholder {
   font-family: 'VCR', sans-serif;
     font-size: 8px;
     font-weight: 400;
-    transform: translateY(8rem);
+    transform: translateY(6rem);
     padding-bottom: 50px; /* change back */
 }
 

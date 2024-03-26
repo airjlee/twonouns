@@ -67,7 +67,7 @@ const Title = () => {
         <div className="title-container">
       <h1 className={
 
-        `${isMobile ? `${isValidEmail ? 'mobile-title' : 'mobile-up'}` : `${isValidEmail ? 'title' : 'up'}`} `
+        `${isMobile ? `${isValidEmail ? 'mobile-title' : 'mobile-title'}` : `${isValidEmail ? 'title' : 'title'}`} `
         
         }>TWONOUNS</h1>
       <h2 className="subtitle">DESIGN STUDIO</h2>
@@ -77,17 +77,19 @@ const Title = () => {
         
         <div className='footer-container'>
       {isJoined ? (
-        <text className="thanks">Thank you for joining the waitlist.</text>
+        <div className="email-container">
+        <text className="thanks">THANK YOU FOR JOINING THE WAITLIST</text>
+        </div>
       ) : (
         <div>
-          <div className={`${isMobile ? 'footer-subtitle-mobile' : 'footer-subtitle'}`} >JOIN THE WAITLIST</div>
+          <div className={`${isMobile ? 'footer-subtitle-mobile' : 'footer-subtitle'}`}>JOIN THE WAITLIST</div>
           <input type="email"
                  placeholder="EMAIL ADDRESS"
                  value={email}
                  onChange={handleEmailChange}
                  onKeyPress={handleKeyPress}
            />
-          {!isValidEmail && <text className="invalid-email-msg">Please enter a valid email address.</text>}
+          {!isValidEmail && <text className={`${isMobile ? 'invalid-email-msg-mobile' : 'invalid-email-msg'}`}>PLEASE ENTER A VALID EMAIL ADDRESS</text>}
         </div>
       )}
       

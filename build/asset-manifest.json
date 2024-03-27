@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dac9a77d.css",
-    "main.js": "/static/js/main.48d11473.js",
+    "main.css": "/static/css/main.52e8720b.css",
+    "main.js": "/static/js/main.ca985028.js",
     "static/js/787.9455264e.chunk.js": "/static/js/787.9455264e.chunk.js",
     "static/media/Taner Ardali  Antikor Text Regular.ttf": "/static/media/Taner Ardali  Antikor Text Regular.66e77a05cba09eb36919.ttf",
     "static/media/RobotoCondensed-Bold.ttf": "/static/media/RobotoCondensed-Bold.b151d2e8beef32d5bd12.ttf",
@@ -10,12 +10,12 @@
     "static/media/Helvetica Neue LT Std 57 Condensed.otf": "/static/media/Helvetica Neue LT Std 57 Condensed.753036847e6f777af67d.otf",
     "static/media/Helvetica Neue LT Std 47 Light Condensed.otf": "/static/media/Helvetica Neue LT Std 47 Light Condensed.88ce1fd144e27ccc7bd9.otf",
     "index.html": "/index.html",
-    "main.dac9a77d.css.map": "/static/css/main.dac9a77d.css.map",
-    "main.48d11473.js.map": "/static/js/main.48d11473.js.map",
+    "main.52e8720b.css.map": "/static/css/main.52e8720b.css.map",
+    "main.ca985028.js.map": "/static/js/main.ca985028.js.map",
     "787.9455264e.chunk.js.map": "/static/js/787.9455264e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dac9a77d.css",
-    "static/js/main.48d11473.js"
+    "static/css/main.52e8720b.css",
+    "static/js/main.ca985028.js"
   ]
 }

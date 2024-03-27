@@ -1,10 +1,19 @@
 import React from 'react';
 import './Title.css';
 import { useRef, useEffect, useState } from 'react';
-
 import 'animate.css';
+import WebFont from 'webfontloader';
+  
 
 const Title = () => {
+  useEffect(() => {
+    WebFont.load({
+      custom: {
+        families: ['TSB', 'HL', 'HLB'],
+        urls: ['./Title.css']
+      },
+    });
+  }, []);
   const emailRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
   const [isJoined, setIsJoined] = useState(false); // State to track if user has joined

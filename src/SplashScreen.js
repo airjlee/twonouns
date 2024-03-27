@@ -1,7 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './SplashScreen.css';
+import WebFont from 'webfontloader';
 
 const SplashScreen = () => {
+  useEffect(() => {
+    WebFont.load({
+      custom: {
+        families: ['TSB', 'HL', 'HLB'],
+        urls: ['./Title.css']
+      },
+    });
+  }, []);
   const [showFirstText, setShowFirstText] = useState(true);
   const [showSecondText, setShowSecondText] = useState(false);
 

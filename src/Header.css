@@ -9,8 +9,8 @@
     display: flex; /* Use flexbox */
     justify-content: space-between; /* Items are evenly distributed in the line */
     align-items: center; /* Align items vertically */
-    padding-top: 20px;
-  
+    padding-top: 30px;
+    
     padding-left: 30px;
     padding-right: 30px;
     color: white;
@@ -18,7 +18,5 @@
     font-family: 'VCR';
   }
   
-  .collection > div {
-    /* Optional: Adjust styles for individual divs */
-  }
+
   

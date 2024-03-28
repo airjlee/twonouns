@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.52e8720b.css",
-    "main.js": "/static/js/main.ca985028.js",
+    "main.css": "/static/css/main.4e225ee1.css",
+    "main.js": "/static/js/main.b9e51fa1.js",
     "static/js/787.9455264e.chunk.js": "/static/js/787.9455264e.chunk.js",
     "static/media/Taner Ardali  Antikor Text Regular.ttf": "/static/media/Taner Ardali  Antikor Text Regular.66e77a05cba09eb36919.ttf",
+    "static/media/blood_lily.png": "/static/media/blood_lily.c936ad7457d935890f60.png",
     "static/media/RobotoCondensed-Bold.ttf": "/static/media/RobotoCondensed-Bold.b151d2e8beef32d5bd12.ttf",
+    "static/media/blood_lily_better.png": "/static/media/blood_lily_better.1b996362f13ec9f45edc.png",
     "static/media/Helvetica Neue LT Com 77 Bold Condensed.ttf": "/static/media/Helvetica Neue LT Com 77 Bold Condensed.0fd7db144776a64c5bda.ttf",
+    "static/media/dove_Wings.png": "/static/media/dove_Wings.699598da4994cbb39b47.png",
     "static/media/Helvetica Neue LT Com 77 Bold Condensed.woff": "/static/media/Helvetica Neue LT Com 77 Bold Condensed.4b396b4f18559b5980a1.woff",
     "static/media/Helvetica Neue LT Std 57 Condensed.otf": "/static/media/Helvetica Neue LT Std 57 Condensed.753036847e6f777af67d.otf",
     "static/media/Helvetica Neue LT Std 47 Light Condensed.otf": "/static/media/Helvetica Neue LT Std 47 Light Condensed.88ce1fd144e27ccc7bd9.otf",
     "index.html": "/index.html",
-    "main.52e8720b.css.map": "/static/css/main.52e8720b.css.map",
-    "main.ca985028.js.map": "/static/js/main.ca985028.js.map",
+    "main.4e225ee1.css.map": "/static/css/main.4e225ee1.css.map",
+    "main.b9e51fa1.js.map": "/static/js/main.b9e51fa1.js.map",
     "787.9455264e.chunk.js.map": "/static/js/787.9455264e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52e8720b.css",
-    "static/js/main.ca985028.js"
+    "static/css/main.4e225ee1.css",
+    "static/js/main.b9e51fa1.js"
   ]
 }

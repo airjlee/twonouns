@@ -6,17 +6,40 @@
   }
   
   .collection {
-    display: flex; /* Use flexbox */
-    justify-content: space-between; /* Items are evenly distributed in the line */
-    align-items: center; /* Align items vertically */
-    padding-top: 30px;
-    
-    padding-left: 30px;
-    padding-right: 30px;
-    color: white;
-    font-size: 12px;
+      position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
     font-family: 'VCR';
+    color: white;
+
+    font-size: 0.7rem;
+    z-index: 1000; 
   }
+
+
+.left,
+.right,
+.center {
+  flex: 1;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+  padding-right: 40px;
+}
   
 
   

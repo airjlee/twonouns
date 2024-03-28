@@ -81,6 +81,15 @@
     margin-bottom: 0.7rem;
   }
   
+  .label {
+    font-family: 'VCR', sans-serif;
+    font-size: 12px;
+    transform: translateY(-15rem) translateX(23rem);
+    font-weight: 400;
+    margin-top: -1rem;
+    margin-bottom: 0.7rem;
+  }
+
   .korean {
     font-family: 'HLB', sans-serif;
     font-size: 1rem;

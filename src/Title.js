@@ -134,8 +134,8 @@ const Title = () => {
 
   return (
     <div className='animate__animated animate__fadeIn'>
-       {scrollPosition < 800 && (
-      <div className="title-container" style={{ opacity: calculateOpacity() }} >
+       
+      <div className="title-container" >
       <h1 className={
 
         `${isMobile ? `${isValidEmail ? 'mobile-title' : 'mobile-title'}` : `${isValidEmail ? 'title' : 'title'}`} `
@@ -144,27 +144,6 @@ const Title = () => {
       <h2 className="subtitle">DESIGN STUDIO</h2>
       <h3 className="korean">옷이 날개다</h3>
       </div>
-       )}
-
-       {scrollPosition > 799 &&(
-         <div className="title-container" style={{ opacity: calculateOpacityTwo() }} >
-          <img src={DoveWings}/>
-            <h2 className="label">01 / DOVE WINGS</h2>
-            
-         </div>
-       )}
-
-        
-         <div className="title-container" style={{ opacity: calculateOpacityThree() }} >
-            <img className="prev" src={DaisyBloom}/>
-            <h2 className="label">02 / DAISY BLOOM</h2>
-         </div>
-       
-
-         <div className="title-container" style={{ opacity: calculateOpacityFour() }} >
-         <img src={BloodLily}/>
-            <h2 className="label">03 / BLOOD LILY</h2>
-         </div>
 
       <div className="email-container">
         
@@ -195,3 +174,27 @@ const Title = () => {
 };
 
 export default Title;
+
+
+/*
+{scrollPosition > 799 &&(
+         <div className="title-container" style={{ opacity: calculateOpacityTwo() }} >
+          <img src={DoveWings}/>
+            <h2 className="label">01 / DOVE WINGS</h2>
+            
+         </div>
+       )}
+
+        
+         <div className="title-container" style={{ opacity: calculateOpacityThree() }} >
+            <img className="prev" src={DaisyBloom}/>
+            <h2 className="label">02 / DAISY BLOOM</h2>
+         </div>
+       
+
+         <div className="title-container" style={{ opacity: calculateOpacityFour() }} >
+         <img src={BloodLily}/>
+            <h2 className="label">03 / BLOOD LILY</h2>
+         </div>
+
+         */
